@@ -72,7 +72,7 @@ while True:
 Next, we are trying string index.
 This code gets the length of a string:
 ```python
-stringLength = ien("A Random String")
+stringLength = len("A Random String")
 ```
 
 
@@ -81,6 +81,23 @@ For loop for each char in the string
 s = "A Random String"
 for letter in s:
   print(s)
+```
+
+Fun Stuff:
+```python
+text = "123456789abcdefg"
+#Print with spaces
+println(text[..2])
+
+#Print a random number from 1 to 9
+import random
+
+random_number = random.randint(1, 9)
+print(random_number)
+
+#Split a string with spaces xD
+message = "I love Danielshe!"
+message_list = message.split()
 ```
 
 
